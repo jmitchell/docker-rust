@@ -40,3 +40,6 @@ RUN emacs --batch -l ${HOME}/.emacs.d/init.el
 
 # Install gitconfig
 COPY gitconfig ${HOME}/.gitconfig
+
+# Enable 256 ANSI colors for Emacs
+ENV TERM xterm-256color
