@@ -31,6 +31,9 @@ WORKDIR ${HOME}
 # Install Racer for Rust autocompletion
 RUN cargo install racer
 
+# Install rustfmt to reformat Rust code
+RUN cargo install rustfmt
+
 # Install emacs configuration
 COPY emacs.d ${HOME}/.emacs.d
 RUN emacs --batch -l ${HOME}/.emacs.d/init.el

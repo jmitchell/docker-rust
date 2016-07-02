@@ -7,6 +7,7 @@
 
 ;; Rust mode and cargo minor mode
 (package-install 'rust-mode)
+(setq rust-format-on-save t)
 
 ;; Racer for Rust autocompletion
 (package-install 'racer)
@@ -28,5 +29,4 @@
 
 ;; Cargo minor mode
 (package-install 'cargo)
-
 (global-set-key (kbd "C-c C-t") #'cargo-process-test)
