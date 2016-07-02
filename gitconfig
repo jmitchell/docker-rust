@@ -1,0 +1,5 @@
+[user]
+	email = jmitchell@member.fsf.org
+	name = Jacob Mitchell
+[core]
+	editor = emacs -nw
