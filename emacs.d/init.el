@@ -30,3 +30,6 @@
 ;; Cargo minor mode
 (package-install 'cargo)
 (global-set-key (kbd "C-c C-t") #'cargo-process-test)
+
+;; Install magic
+(package-install 'magit)
