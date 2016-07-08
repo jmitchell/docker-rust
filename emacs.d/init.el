@@ -33,3 +33,6 @@
 
 ;; Install magic
 (package-install 'magit)
+
+;; Load a sane color theme
+(load-theme 'wombat)
