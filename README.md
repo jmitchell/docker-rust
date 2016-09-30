@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/jmitchell/rust.svg)](https://microbadger.com/images/jmitchell/rust "Get your own image badge on microbadger.com")
+
 # Usage
 
 Pull the image from
