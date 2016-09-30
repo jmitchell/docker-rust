@@ -20,19 +20,19 @@ $ docker run -it --rm jmitchell/rust:$TAG
 Edit the `RUST_VERSION` environment variable in the Dockerfile and run
 
 ```
-$ docker build -t jmitchell/rust:latest .
+$ docker build -t jmitchell/rust:1.12.0 .    # replace version as needed
 ```
 
 Test it according to the usage instructions above. If it works as
 expected, push the image to Dockerhub:
 
 ```
+$ docker push jmitchell/rust:1.12.0
+```
+
+Lastly, update the latest tag and push it too. For example:
+
+```
+$ docker build -t jmitchell/rust:latest .
 $ docker push jmitchell/rust:latest
-```
-
-Lastly, make a versioned tag and push it too. For example:
-
-```
-$ docker build -t jmitchell/rust:1.10.0
-$ docker push jmitchell/rust:1.10.0
 ```

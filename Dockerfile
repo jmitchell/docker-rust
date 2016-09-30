@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER Jake Mitchell <jmitchell@member.fsf.org>
 ENV USER root
 ENV HOME /root
-ENV RUST_VERSION 1.10.0
+ENV RUST_VERSION 1.12.0
 ENV RUST_SRC_PATH /usr/local/src/rustc-${RUST_VERSION}/src
 
 RUN apt-get update
